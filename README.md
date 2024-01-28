@@ -10,4 +10,5 @@
 - add your domain, and don't forget to set in django_coolify_example/settings.py as well in allowed_host array.
 
 > [!NOTE]
-> In case you receive Bad Gateway message instead of your django page, you have to increase the timeout to 3000.
+> In case you receive Bad Gateway message instead of your django page, you have to increase the default 30 timeout to 3000.
+> /virtual/venv/lib/python3.9/site-packages/gunicorn/config.py
